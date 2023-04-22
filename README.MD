@@ -1,5 +1,5 @@
 
-##**README SERENITY WEB TRAINING**
+##**README SERENITY WEB**
 ```
 ./gradlew clean test -Pwebdriver.driver=firefox -Denvironmeent=staging
 ```
@@ -8,16 +8,12 @@
 ```
 ./gradlew clean test
 ```
+## or 
 
 To run tests in Firefox:
 
 ```
-./gradlew clean test -Dwebdriver.driver=firefox
-```
-
-In windows:
-```
-gradlew clean test
+./gradlew clean test -Pwebdriver.driver=firefox -Denvironmeent=staging
 ```
 
 ##**Run tests with Maven:**
@@ -31,3 +27,4 @@ or try this:
 mvn clean verify -Dwebdriver.driver=firefox
 ```
 
+## Validado en ambiente de macOs
