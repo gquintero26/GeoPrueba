@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="starter.CucumberTestSuite" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="GeQuintero.lan" time="0.0">
+  <properties/>
+  <system-out><![CDATA[16:27:26.856 [Test worker] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.ThucydidesModule
+16:27:26.982 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/macbookk/IdeaProjects/GeoPrueba/src/test/resources/features/calcularTasa.feature
+16:27:27.088 [Test worker] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.webdriver.WebDriverModule
+16:27:27.104 [Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+16:27:27.107 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@4921a7c7
+16:27:27.108 [Test worker] INFO  - Test Suite Started: Yo como usuario requiero calcular mi tasa de interes
+16:27:27.126 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/macbookk/IdeaProjects/GeoPrueba/src/test/resources/features/calcularTasa.feature
+16:27:27.128 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@4921a7c7
+16:27:27.129 [Test worker] INFO  - Test Suite Started: Yo como usuario requiero calcular mi tasa de interes
+16:28:08.971 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+16:28:09.069 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+16:28:09.075 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@3e0fe68f
+16:28:09.076 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Yo como usuario requiero calcular mi tasa de interes:Searching for a term
+16:28:09.076 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@3e0fe68f: Generating report for test outcome: Yo como usuario requiero calcular mi tasa de interes:Searching for a term
+16:28:09.082 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Searching for a term to file /Users/macbookk/IdeaProjects/GeoPrueba/target/site/serenity/dcee8d5bd56bdaecbd835f3c4e6fc1c9a678ab5c0ba1a1d0280d944acd2b8dc5.json (using temp file /Users/macbookk/IdeaProjects/GeoPrueba/target/site/serenity/dcee8d5bd56bdaecbd835f3c4e6fc1c9a678ab5c0ba1a1d0280d944acd2b8dc5.jsonb87cd20d-a9ae-44e2-9e99-e08c08e71ef9)
+16:28:09.113 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Yo como usuario requiero calcular mi tasa de interes:Searching for a term done
+16:28:09.113 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+16:28:09.113 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 38 ms
+16:28:09.113 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@24e82f43
+16:28:09.114 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Yo como usuario requiero calcular mi tasa de interes:Searching for a term
+16:28:09.114 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@24e82f43: Generating report for test outcome: Yo como usuario requiero calcular mi tasa de interes:Searching for a term
+16:28:09.236 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:51661 : 1
+16:28:09.237 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Adding Candidate expired Channel [id: 0xf052fa38, L:/127.0.0.1:51351 ! R:localhost/127.0.0.1:51661] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+16:28:09.237 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closing Idle Channel [id: 0xf052fa38, L:/127.0.0.1:51351 ! R:localhost/127.0.0.1:51661]
+16:28:09.237 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closed 1 connections out of 1 in 0 ms
+16:28:10.909 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Yo como usuario requiero calcular mi tasa de interes:Searching for a term done
+16:28:10.909 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+16:28:10.909 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 1796 ms
+16:28:11.000 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+16:28:11.000 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+16:28:11.015 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+]]></system-out>
+  <system-err><![CDATA[?[32m?[1m┌───────────────────────────────────────────────────────────────────────────────────┐?[0m
+?[32m?[1m│?[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Activate publishing with one of the following:                                    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m More information at ?[36mhttps://cucumber.io/docs/cucumber/environment-variables/?[0m      ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Disable this message with one of the following:                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m│?[0m
+?[32m?[1m└───────────────────────────────────────────────────────────────────────────────────┘?[0m
+]]></system-err>
+</testsuite>
